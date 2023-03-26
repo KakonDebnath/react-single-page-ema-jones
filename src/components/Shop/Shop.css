@@ -11,4 +11,22 @@
 }
 .order-summery{
     background: rgba(255, 153, 0, 0.3);
+    text-align: center;
+    padding-top: 50px;
 }
+@media only screen and (max-width: 1024px) {
+    .products-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin: 50px 50px 0px;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .products-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        margin: 50px 10px 0px;
+    }
+  }
