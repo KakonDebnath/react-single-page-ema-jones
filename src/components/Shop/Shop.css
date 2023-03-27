@@ -9,17 +9,13 @@
     gap: 45px;
     margin: 100px 100px 0px;
 }
-.order-summery{
-    background: rgba(255, 153, 0, 0.3);
-    text-align: center;
-    padding-top: 50px;
-}
+
 @media only screen and (max-width: 1024px) {
     .products-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
-        margin: 50px 50px 0px;
+        margin: 50px 20px 0px;
     }
   }
 @media only screen and (max-width: 768px) {

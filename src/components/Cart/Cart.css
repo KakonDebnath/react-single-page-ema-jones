@@ -1,0 +1,20 @@
+.order-summery{
+    background: rgba(255, 153, 0, 0.3);
+    text-align: left;
+    padding: 20px ;
+    position: sticky;
+    top: 0;
+}
+.order-summery h3{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+.order-summery p{
+    line-height: 20px;
+    margin: 20px 0px;
+    font-size: 18px;
+}
+.order-summery h6{
+    font-size: 22px;
+}
